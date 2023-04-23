@@ -46,5 +46,5 @@ cacheSolve <- function(x) {
 
 f<-makeCacheMatrix(matrix((1:8),2,4))
 f$get()
-f$cacheSolve()
+f$inverse()
 cacheSolve(f)
